@@ -387,9 +387,17 @@ body {
 .comData p{
 margin-bottom: 7px;
 }
+
+
 .comData a{
     color: black;
 }
+
+
+.comData a:hover{
+    text-decoration: none;
+}
+
 .comData span{
     margin: 0 2px;
 }
