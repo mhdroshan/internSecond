@@ -13,6 +13,14 @@ body {
     height: 100%;
     background-position: center;
 }
+.heroImage{
+    height: 100%;
+    background-image: url(../src/wallpaper1.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    background-position: center;
+}
 
 .loghead {
     text-align: center;
@@ -141,7 +149,7 @@ body {
 .submitButton {
     background: transparent;
     color: #007bff;
-    transition: 0.1s ease;
+    transition: 0.2s ease;
     /* border: none; */
     box-shadow: none;
     text-transform: uppercase;
@@ -171,7 +179,7 @@ body {
 .registerButton {
     background: transparent;
     color: #e92e1c;
-    transition: 0.1s ease;
+    transition: 0.2s ease;
     /* border: none; */
     box-shadow: none;
     text-transform: uppercase;
@@ -208,8 +216,11 @@ body {
     color: black;
     font-weight: 600;
     border-radius: 28px;
-    margin: 5px auto;
+    margin:  0 auto;
     background: white;
+}
+.forgetPassword:hover{
+    color: #00000099;
 }
 
 .forgetPassword:focus {
