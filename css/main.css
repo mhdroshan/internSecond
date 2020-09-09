@@ -64,14 +64,14 @@ body {
     letter-spacing: 1px;
 }
 
-.details {
+.inputField {
     border: none;
     padding: 7px;
     width: 80%;
     margin: 5px 2px;
 }
 
-.details:focus {
+.inputField:focus {
     outline: none;
 }
 
