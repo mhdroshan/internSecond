@@ -49,7 +49,7 @@ body {
 
 .logoIcon {
     height: 115px;
-    width: auto;
+    max-width: 450px;
     background-position: center;
     background-size: 90%;
     background-repeat: no-repeat;
@@ -69,7 +69,7 @@ body {
 .inputField {
     border: none;
     padding: 7px;
-    width: 80%;
+    max-width: 80%;
     margin: 5px 2px;
 }
 
@@ -149,7 +149,7 @@ body {
 }
 
 .submitButton {
-    background: transparent;
+    background: white;
     color: #007bff;
     transition: 0.2s ease;
     /* border: none; */
@@ -180,7 +180,7 @@ body {
 /* regbutton */
 
 .registerButton {
-    background: transparent;
+    background: white;
     color: #e92e1c;
     transition: 0.2s ease;
     /* border: none; */
@@ -262,7 +262,7 @@ body {
 
 .signinlink button {
     border: none;
-    background: transparent;
+    background: white;
     padding: 0;
     margin: 0 auto;
     margin-left: 0;
@@ -374,7 +374,7 @@ body {
 .formholder {
     position: relative;
     width: 100%;
-    min-height: 500px;
+    min-height: 62%;
 }
 
 .comData {
