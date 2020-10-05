@@ -13,7 +13,8 @@ body {
     height: 100%;
     background-position: center;
 }
-.heroImage{
+
+.heroImage {
     height: 100%;
     background-image: url(../src/wallpaper1.jpeg);
     background-repeat: no-repeat;
@@ -25,7 +26,7 @@ body {
 .loghead {
     text-align: center;
     padding: 10px 5px;
-    height: 90%;
+   
     margin: 10px;
     /* border-radius: 10px; */
     /* background-color: #d3d1d133; */
@@ -41,18 +42,19 @@ body {
     background-repeat: no-repeat;
     margin: auto;
 } */
-.logos{
+
+.logos {
     display: inline;
 }
-.logoIcon{
+
+.logoIcon {
     height: 115px;
-    width:auto;
+    width: auto;
     background-position: center;
-    background-size:90%;
+    background-size: 90%;
     background-repeat: no-repeat;
     margin: auto;
     background-image: url(../src/vyapar-logo.png);
-   
 }
 
 .logdet {
@@ -92,18 +94,18 @@ body {
     z-index: 5;
     left: 0;
 }
-.Horline{
+
+.Horline {
     font-size: 14px;
 }
-.Horline::before,
-.Horline::after {
+
+.Horline::before, .Horline::after {
     display: inline-block;
     content: "";
     border-top: 1.5px solid #9E9E9E;
     width: 70px;
     margin: auto 16px;
     transform: translateY(-5px);
-
 }
 
 .logform p {
@@ -164,18 +166,19 @@ body {
 
 .submitButton:hover {
     background-color: #007bff;
-    color:white;
-    
+    color: white;
 }
 
 .submitButton:focus {
     box-shadow: none;
 }
+
 .submitButton:focus {
     outline: none;
 }
 
 /* regbutton */
+
 .registerButton {
     background: transparent;
     color: #e92e1c;
@@ -195,19 +198,19 @@ body {
 
 .registerButton:hover {
     background-color: #e92e1c;
-    color:white;
-    
+    color: white;
 }
 
 .registerButton:focus {
     box-shadow: none;
 }
+
 .registerButton:focus {
     outline: none;
 }
 
-
 /*  */
+
 .forgetPassword {
     width: 70%;
     text-align: center;
@@ -216,17 +219,17 @@ body {
     color: black;
     font-weight: 600;
     border-radius: 28px;
-    margin:  0 auto;
+    margin: 0 auto;
     background: white;
 }
-.forgetPassword:hover{
+
+.forgetPassword:hover {
     color: #00000099;
 }
 
 .forgetPassword:focus {
     outline: none;
 }
-
 
 .signinlink {
     display: inline-flex;
@@ -371,33 +374,30 @@ body {
 .formholder {
     position: relative;
     width: 100%;
-    height: 320px;
+    min-height: 500px;
 }
 
-.comData{
-    position: absolute;
-    bottom: 5px;
-    margin-bottom: 6px;
+.comData {
+    position: relative;
     width: 200px;
+    margin: 10px auto;
+    margin-top: 30px;
+    text-align: center;
     font-size: 13px;
-    right: 50%;
-    margin-right: -100px;
 }
 
-.comData p{
-margin-bottom: 7px;
+.comData p {
+    margin-bottom: 7px;
 }
 
-
-.comData a{
+.comData a {
     color: black;
 }
 
-
-.comData a:hover{
+.comData a:hover {
     text-decoration: none;
 }
 
-.comData span{
+.comData span {
     margin: 0 2px;
 }
