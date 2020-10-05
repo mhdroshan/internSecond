@@ -374,7 +374,7 @@ body {
 .formholder {
     position: relative;
     width: 100%;
-    min-height: 62%;
+    min-height: 62vh;
 }
 
 .comData {
