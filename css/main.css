@@ -137,15 +137,18 @@ body {
 }
 
 .bholder {
-    display: block;
+    display: -moz-inline-grid;
+    display: -ms-inline-grid;
+    display: inline-grid;
+    justify-content: center;
     margin: 5px;
     padding: 8px;
 }
 
 .bholder2 {
-    /* display: flex; */
     margin: 5px;
     padding: 8px;
+    justify-content: center;
 }
 
 .submitButton {
